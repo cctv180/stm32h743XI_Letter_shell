@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{01B75CC9-D100-4946-8E37-9BD617FD4C47}</ProjectGuid>
+    <ProjectGuid>{7F75039E-28ED-4136-98DB-CF24B1E41FDF}</ProjectGuid>
     <BSP_ID>com.sysprogs.arm.stm32</BSP_ID>
     <BSP_VERSION>2020.06</BSP_VERSION>
   </PropertyGroup>

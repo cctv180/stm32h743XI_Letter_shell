@@ -48,7 +48,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\MDK-ARM\project.uvprojx</RelativePath>
-        <Timestamp>132444675777864050</Timestamp>
+        <Timestamp>132445669009630781</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -185,12 +185,12 @@
         <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\Stm32Project\02.01.letter-shell-ATK-STM32F767-MDK\Inc</string>
-            <string>E:\Stm32Project\02.01.letter-shell-ATK-STM32F767-MDK\Drivers\STM32H7xx_HAL_Driver\Inc</string>
-            <string>E:\Stm32Project\02.01.letter-shell-ATK-STM32F767-MDK\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy</string>
-            <string>E:\Stm32Project\02.01.letter-shell-ATK-STM32F767-MDK\Drivers\CMSIS\Device\ST\STM32H7xx\Include</string>
-            <string>E:\Stm32Project\02.01.letter-shell-ATK-STM32F767-MDK\Drivers\CMSIS\Include</string>
-            <string>E:\Stm32Project\02.01.letter-shell-ATK-STM32F767-MDK\letter-shell</string>
+            <string>E:\Stm32Project\stm32h743XI_Letter_shell\Inc</string>
+            <string>E:\Stm32Project\stm32h743XI_Letter_shell\Drivers\STM32H7xx_HAL_Driver\Inc</string>
+            <string>E:\Stm32Project\stm32h743XI_Letter_shell\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy</string>
+            <string>E:\Stm32Project\stm32h743XI_Letter_shell\Drivers\CMSIS\Device\ST\STM32H7xx\Include</string>
+            <string>E:\Stm32Project\stm32h743XI_Letter_shell\Drivers\CMSIS\Include</string>
+            <string>E:\Stm32Project\stm32h743XI_Letter_shell\letter-shell</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

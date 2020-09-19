@@ -2,73 +2,73 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source files">
-      <UniqueIdentifier>{d853742b-a627-43c3-8dc9-84eaacf9c830}</UniqueIdentifier>
+      <UniqueIdentifier>{a05ec81e-7c9c-435a-8707-0d698f29fe66}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Header files">
-      <UniqueIdentifier>{be9968aa-fa10-4800-b080-6b9cf66259f5}</UniqueIdentifier>
+      <UniqueIdentifier>{a8500aa1-3dff-4e77-8e2a-cb9bfe237e1f}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource files">
-      <UniqueIdentifier>{dfa54c3c-d11d-4d5a-8934-d3d47afec048}</UniqueIdentifier>
+      <UniqueIdentifier>{b28b8242-2359-4640-9814-1f5b4735acf2}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Source files\Drivers">
-      <UniqueIdentifier>{761feb65-80d9-42e4-b218-80ea2f4929ca}</UniqueIdentifier>
+      <UniqueIdentifier>{159c9782-cd97-4ce6-8b5f-80524d16c3c1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Drivers\STM32H7xx_HAL_Driver">
-      <UniqueIdentifier>{d479df76-d13d-495f-af89-76bf8f196317}</UniqueIdentifier>
+      <UniqueIdentifier>{4838c152-9d2f-4dea-a36f-3bb05248ebef}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Drivers\CMSIS">
-      <UniqueIdentifier>{0e86a1a0-f033-4eb0-bc54-3ced9c3794b9}</UniqueIdentifier>
+      <UniqueIdentifier>{665ce3b9-e158-408f-a1d8-f50882ad031c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Application">
-      <UniqueIdentifier>{a53ee8a5-11c3-460f-acd5-1cda745db06f}</UniqueIdentifier>
+      <UniqueIdentifier>{cf014210-2ef4-4282-9750-df75a022bf1a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Application\MDK-ARM">
-      <UniqueIdentifier>{5150012b-839d-4521-8a1b-e207c16c8a53}</UniqueIdentifier>
+      <UniqueIdentifier>{34fd084f-ccc5-435d-af68-49b49b2c6d60}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Application\User">
-      <UniqueIdentifier>{b5f8e083-f343-4a5d-9d57-88f01b4e71d5}</UniqueIdentifier>
+      <UniqueIdentifier>{06591763-435c-465c-91b1-4f8d938930ec}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\letter_shell">
-      <UniqueIdentifier>{47806878-6e29-4380-a553-8e17f5882b67}</UniqueIdentifier>
+      <UniqueIdentifier>{d1f9a85d-065a-40b7-b910-8128f09d21a0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\::CMSIS">
-      <UniqueIdentifier>{a15c7580-a600-4f70-a4af-b1abc4177744}</UniqueIdentifier>
+      <UniqueIdentifier>{1b7d9bd0-c131-49a2-9713-487f2a04935f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Device-specific files">
-      <UniqueIdentifier>{da166ce3-a190-48b6-8b09-213125d4fd78}</UniqueIdentifier>
+      <UniqueIdentifier>{d76f1133-9cd1-4e50-af86-046878de3191}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Drivers">
-      <UniqueIdentifier>{4fdac98b-7c4b-4c54-8631-0d0afed57b41}</UniqueIdentifier>
+      <UniqueIdentifier>{bd697599-1701-46e3-a892-aaf3c877a9b1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Drivers\STM32H7xx_HAL_Driver">
-      <UniqueIdentifier>{14339052-6691-42bc-9a56-c8e280efbeda}</UniqueIdentifier>
+      <UniqueIdentifier>{adeb9cf5-4e93-46fb-b9c8-45d6ee9b8ab2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Drivers\CMSIS">
-      <UniqueIdentifier>{b5f1ed99-2ca1-4b9c-876a-4c1c40ecdecf}</UniqueIdentifier>
+      <UniqueIdentifier>{978a247d-a55e-4001-ba90-b9b7e4a20528}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Application">
-      <UniqueIdentifier>{59a5951e-fca2-4a49-8924-2a8af913d762}</UniqueIdentifier>
+      <UniqueIdentifier>{7cd202fc-050c-4c31-a7bb-7018edb2e5f2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Application\MDK-ARM">
-      <UniqueIdentifier>{43cb5200-e384-4212-9817-22a8260d016c}</UniqueIdentifier>
+      <UniqueIdentifier>{c787276b-59ba-4636-8b17-9b1a17e03edc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Application\User">
-      <UniqueIdentifier>{490a363e-084b-4f93-93eb-3d1b9c4880d6}</UniqueIdentifier>
+      <UniqueIdentifier>{479257c4-d691-4649-b5fd-544d96102252}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\letter_shell">
-      <UniqueIdentifier>{333495c5-e9e6-4ac6-a3a8-1eccedf3e704}</UniqueIdentifier>
+      <UniqueIdentifier>{b3377593-474f-47ce-b4be-90a13e64b976}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\::CMSIS">
-      <UniqueIdentifier>{0860b049-ca58-4a39-9717-1137625cc059}</UniqueIdentifier>
+      <UniqueIdentifier>{f1d1097c-4c32-458b-8c0a-7bea14da5507}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Device-specific files">
-      <UniqueIdentifier>{5916fc01-b658-406b-89e7-fcc55e1ea80c}</UniqueIdentifier>
+      <UniqueIdentifier>{581adc4f-0671-4b4b-82dc-7abd22921ebd}</UniqueIdentifier>
     </Filter>
     <Filter Include="VisualGDB settings">
-      <UniqueIdentifier>{d78400ac-27d7-4398-af59-ba579364598b}</UniqueIdentifier>
+      <UniqueIdentifier>{10028da5-7fff-4942-9ca9-320101d6557f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

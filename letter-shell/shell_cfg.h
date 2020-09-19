@@ -28,6 +28,17 @@
 #define     SHELL_USING_CMD_EXPORT      1
 
 /**
+ * @brief 是否使用shell伴生对象
+ *        一些扩展的组件(文件系统支持，日志工具等)需要使用伴生对象
+ */
+#define     SHELL_USING_COMPANION       0
+
+/**
+ * @brief 支持shell尾行模式
+ */
+#define     SHELL_SUPPORT_END_LINE      0
+
+/**
  * @brief 是否在输出命令列表中列出用户
  */
 #define     SHELL_HELP_LIST_USER        0
@@ -66,6 +77,13 @@
 #define     SHELL_ENTER_CRLF            0
 
 /**
+ * @brief 使用执行未导出函数的功能
+ *        启用后，可以通过`exec [addr] [args]`直接执行对应地址的函数
+ * @attention 如果地址错误，可能会直接引起程序崩溃
+ */
+#define     SHELL_EXEC_UNDEF_FUNC       0
+
+/**
  * @brief shell命令参数最大数量
  *        包含命令名在内，超过8个参数并且使用了参数自动转换的情况下，需要修改源码
  */
@@ -101,9 +119,31 @@
 #define     SHELL_GET_TICK()            0
 
 /**
+ * @brief shell内存分配
+ *        shell本身不需要此接口，若使用shell伴生对象，需要进行定义
+ */
+#define     SHELL_MALLOC(size)          0
+
+/**
+ * @brief shell内存释放
+ *        shell本身不需要此接口，若使用shell伴生对象，需要进行定义
+ */
+#define     SHELL_FREE(obj)             0
+
+/**
+ * @brief 是否显示shell信息
+ */
+#define     SHELL_SHOW_INFO             1
+
+/**
+ * @brief 是否在登录后清除命令行
+ */
+#define     SHELL_CLS_WHEN_LOGIN        1
+
+/**
  * @brief shell默认用户
  */
-#define     SHELL_DEFAULT_USER          "mculover666"
+#define     SHELL_DEFAULT_USER          "letter"
 
 /**
  * @brief shell默认用户密码
@@ -113,7 +153,7 @@
 
 /**
  * @brief shell自动锁定超时
- *        使能`SHELL_USING_AUTH`的情况下生效，超时后会自动重新锁定shell
+ *        shell当前用户密码有效的时候生效，超时后会自动重新锁定shell
  *        设置为0时关闭自动锁定功能，时间单位为`SHELL_GET_TICK()`单位
  * @note 使用超时锁定必须保证`SHELL_GET_TICK()`有效
  */

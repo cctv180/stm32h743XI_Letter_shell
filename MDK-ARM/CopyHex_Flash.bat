@@ -1,1 +1,1 @@
-copy Objects\output.hex ..\output(mdk).hex
+copy project\*.hex ..\output(mdk).hex

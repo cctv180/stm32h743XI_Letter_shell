@@ -5,7 +5,7 @@
  * @version 3.0.0
  * @date 2019-12-31
  * 
- * @Copyright (c) 2019 Letter
+ * @copyright (c) 2019 Letter
  * 
  */
 
@@ -28,6 +28,6 @@ typedef enum
 } NUM_Type;
 
 unsigned int shellExtParsePara(Shell *shell, char *string);
-int shellExtRun(Shell *shell, int (*function)(), int argc, char *argv[]);
+int shellExtRun(Shell *shell, ShellCommand *command, int argc, char *argv[]);
 
 #endif

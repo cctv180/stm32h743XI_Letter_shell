@@ -7,7 +7,6 @@
 MDK-ARM/Objects
 MDK-ARM/Listings
 MDK-ARM/DebugConfig
-MDK-ARM/SD_J_B_stm32f4
 MDK-ARM/project
 
 MDK-ARM/*.bak
@@ -16,17 +15,15 @@ MDK-ARM/*.uvguix.*
 MDK-ARM/*.scvd
 #MDK-ARM/JLink*
 MDK-ARM/JLinkLog.txt
-MDK-ARM/project.uvgui.*
+MDK-ARM/*.uvgui.*
 
 EmbeddedProject1/VisualGDB
 EmbeddedProject1/.vs
 EmbeddedProject1/*.vcxproj.user
-EmbeddedProject1/*.vgdbsettings
 
 EWARM/bin
 EWARM/obj
 EWARM/settings
-EWARM/SD_J_B_stm32f4
 EWARM/.vs
 
 EWARM/settings/*.crun
